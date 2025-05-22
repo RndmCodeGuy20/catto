@@ -1,3 +1,7 @@
-## 0.0.1
+## 1.0.0 
 
-* TODO: Describe initial release.
+- Un-release project init
+
+## 1.0.1
+
+- Fix: CHANGELOG.md
