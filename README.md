@@ -55,8 +55,8 @@ CattoWidget(
   width: double.infinity,
   height: 200,
   fit: BoxFit.cover,
-  controller: CatMemeController(
-    repository: CatMemeRepository(
+  controller: CattoController(
+    repository: CattoRepository(
       apiUrl: 'https://your.custom.cat.api',
     ),
   ),
@@ -65,13 +65,13 @@ CattoWidget(
 
 ## 🎨 Customization
 
-| Parameter    | Type                 | Description                          | Default        |
-|--------------|----------------------|--------------------------------------|----------------|
-| `width`      | `double?`            | Width of the widget                  | `null` (auto)  |
-| `height`     | `double?`            | Height of the widget                 | `null` (auto)  |
-| `fit`        | `BoxFit`             | How the image should be inscribed    | `BoxFit.cover` |
-| `controller` | `CatMemeController?` | Custom controller for advanced usage | `null`         |
-| `apiUrl`     | `String?`            | Custom API endpoint                  | TheCatAPI      |
+| Parameter    | Type               | Description                          | Default        |
+|--------------|--------------------|--------------------------------------|----------------|
+| `width`      | `double?`          | Width of the widget                  | `null` (auto)  |
+| `height`     | `double?`          | Height of the widget                 | `null` (auto)  |
+| `fit`        | `BoxFit`           | How the image should be inscribed    | `BoxFit.cover` |
+| `controller` | `CattoController?` | Custom controller for advanced usage | `null`         |
+| `apiUrl`     | `String?`          | Custom API endpoint                  | TheCatAPI      |
 
 ## 🐱‍👤 Examples
 
